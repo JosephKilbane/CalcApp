@@ -23,3 +23,19 @@ suite("Test coin flip", function() {
   });
 
 });
+
+suite("add numbers", function() {
+
+  test("add properly", function() {
+    // Initialise a counter.
+  
+      // Flip the coin.
+      let ans = logic.addNumbers(1,1);
+
+      // Test return type.
+      chai.assert.isEqual(ans, 2);
+
+
+  });
+
+});
