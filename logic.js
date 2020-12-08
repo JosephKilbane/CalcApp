@@ -13,3 +13,4 @@ function addNumbers(num1,num2) {
 }
 
 module.exports.flipCoin = flipCoin;
+module.exports.addNumbers = addNumbers;
