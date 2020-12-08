@@ -33,7 +33,7 @@ suite("add numbers", function() {
       let ans = logic.addNumbers(1,1);
 
       // Test return type.
-      chai.assert.isEqual(ans, 2);
+      chai.assert.equal(ans, 2);
 
 
   });
